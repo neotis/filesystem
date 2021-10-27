@@ -1,0 +1,1 @@
+{"version":1,"defects":{"FileTest::":6,"FileTest::testResponseOfFileExist":3},"times":{"FileTest::":0.017,"FileTest::testResponseOfFileExist":0.239,"FileTest::testResponseOfFileMissing":0.001}}

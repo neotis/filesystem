@@ -1,0 +1,14 @@
+# IDEs and editors
+/.idea
+.idea
+.idea/*
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+vendor/
+composer.lock
+phpunit.xml
