@@ -4,12 +4,6 @@
     "type": "library",
     "keywords": [],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Shahin Ataei",
-            "email": "shahin.ataei.1990@gmail.com"
-        }
-    ],
     "require": {
         "symfony/finder": "^5.3"
     },
