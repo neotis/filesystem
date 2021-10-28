@@ -15,12 +15,6 @@ class File
         return !$this->exist($path);
     }
 
-    /**
-     * Get all of the directories within a given directory.
-     *
-     * @param string $directory
-     * @return array
-     */
     public function directories(string $directory): array
     {
         $directories = [];
@@ -30,5 +24,13 @@ class File
         }
 
         return $directories;
+    }
+
+    public function files($directory, $hidden = false): array
+    {
+        return iterator_to_array(
+            Finder::create()->files()->ignoreDotFiles(! $hidden)->in($directory)->depth(0)->sortByName(),
+            false
+        );
     }
 }
