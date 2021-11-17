@@ -8,7 +8,7 @@
         "symfony/finder": "^5.3"
     },
     "autoload": {
-        "psr-4": { "Neotis\\Filesystem\\": "" },
+        "psr-4": { "Neotis\\Filesystem\\": "src/" },
         "exclude-from-classmap": [
             "/test/"
         ]
